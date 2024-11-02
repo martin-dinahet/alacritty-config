@@ -28,36 +28,40 @@ x = 0
 y = 1
 
 [colors.primary]
-background   = '0x000000'
-foreground   = '0xffffff'
+background = '#1f1f28'
+foreground = '#dcd7ba'
 
 [colors.normal]
-black     = '0x000000'
-red       = '0xff5f59'
-green     = '0x44bc44'
-yellow    = '0xd0bc00'
-blue      = '0x2fafff'
-magenta   = '0xfeacd0'
-cyan      = '0x00d3d0'
-white     = '0xffffff'
+black   = '#090618'
+red     = '#c34043'
+green   = '#76946a'
+yellow  = '#c0a36e'
+blue    = '#7e9cd8'
+magenta = '#957fb8'
+cyan    = '#6a9589'
+white   = '#c8c093'
 
 [colors.bright]
-black     = '0x1e1e1e'
-red       = '0xff5f5f'
-green     = '0x44df44'
-yellow    = '0xefef00'
-blue      = '0x338fff'
-magenta   = '0xff66ff'
-cyan      = '0x00eff0'
-white     = '0x989898'
+black   = '#727169'
+red     = '#e82424'
+green   = '#98bb6c'
+yellow  = '#e6c384'
+blue    = '#7fb4ca'
+magenta = '#938aa9'
+cyan    = '#7aa89f'
+white   = '#dcd7ba'
+
+[colors.selection]
+background = '#2d4f67'
+foreground = '#c8c093'
 
 [[colors.indexed_colors]]
-index     = 16
-color     = '0xfec43f'
+index = 16
+color = '#ffa066'
 
 [[colors.indexed_colors]]
-index     = 17
-color     = '0xff9580'
+index = 17
+color = '#ff5d62'
 
 [[keyboard.bindings]]
 action = "Paste"
